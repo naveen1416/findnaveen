@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/* Colors */
+.text-gold{
+    color:#9e865b;
+}
+.p_10{
+    padding:5rem;
+}
+/* Buttons */
+.btn-outline-warning{
+    color: #fff;
+    background-color: #9e865b;
+    border-color: #9e865b;
+}
+.btn-outline-warning:hover , .btn-outline-warning:visited{
+    background-color: #9e865b;
+    border-color: #9e865b;
+}
+.btn-outline-warning:focus,.btn-outline-warning.focus,.btn-outline-warning:active{
+    background-color: #9e865b;
+    border-color: #9e865b;
+}
+.btn-outline-warning:not(:disabled):not(.disabled):active{
+    background-color: #9e865b;
+    border-color: #9e865b;
+}
+.btn-outline-warning:not(:disabled):not(.disabled).active:focus, .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-warning.dropdown-toggle:focus,.btn-outline-warning:focus
+{
+    box-shadow: 0 0 0 0.2rem rgba(158, 134, 91, 0.51);
+}
+
+/* Custom Cards */
+.card-1 {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+  
+.card-1:hover {
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-2 {
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* Margins */
+@media only screen and (min-width: 600px) {
+.mt-10{
+    margin-top:8rem;
+}
+.ml-5{
+    margin-left:0rem !important;
+}
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #111; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9e865b;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9e865b; 
+  }

@@ -1,0 +1,23 @@
+<div class="card-2 col-md-12 ">
+    <h4 class="text-gold p-2">{{title}}</h4>
+</div>
+<div class="container">
+    <div class="row  ">
+    
+      <div class="col-md-6 mt-5 ">
+      <div class="">
+          <p class="">Hello..! I am <b>{{name}} </b>  <i>{{role}}</i></p>
+          <p class="">{{description}} </p>
+          <p>{{hobbies}}</p>
+          <p>{{personalLife}}</p>
+          <a href=""><button class="btn btn-outline-warning">Download CV</button>  </a>
+          
+          <a routerLink="/case-studies"><button class="btn btn-dark ml-2">Projects</button></a>
+          </div>
+    </div>
+    <div class="col-md-6 mt-5 mb-5 text-center">
+        <img src="{{image}}" class="rounded mx-auto d-block shadow-lg greyscale" height="300px"/>
+        <app-social-links></app-social-links>
+    </div>
+    </div>
+</div>

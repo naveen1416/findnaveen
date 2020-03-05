@@ -1,0 +1,23 @@
+<div class="">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <a class="navbar-brand nav-link" routerLink="/home"><b><span><</span> findNaveen /> </b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+      <!-- <ul class="navbar-nav mr-auto mt-2 mt-lg-0" *ngFor="let data of menuItems"> -->
+      <ul class="navbar-nav" *ngFor="let data of menuItems">
+        <li class="nav-item" (click)="closeToggle()">
+          <a class="nav-link" routerLink="/{{data.routerLink}}">{{data.menuLabel}}</a>
+      </li>
+      </ul>
+    </div>
+    <form class="form-inline my-2 my-lg-0 pull-right d-none d-sm-block">
+        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+        <a href="assets/naveen_cv.pdf" target="_blank">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="button">Download CV</button>
+        </a>
+      </form>
+  </nav>
+</div>

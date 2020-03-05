@@ -1,0 +1,14 @@
+<div class="card-2 col-md-12">
+    <h4 class="text-gold p-2">{{title}}</h4>
+</div>
+<div class="container">
+<div class="row mt-5">
+    <div class="col-md-6 mb-4"  *ngFor="let data of experienceData">
+    <div class="card-1 p-2">
+      <h5 class="text-gold"><b>{{data.company}}</b> <small class="ml-2">{{data.country}}</small></h5>
+      <small class="text-secondary"><i>{{data.role}}</i><br/><b>{{data.duration}}</b></small> <br/>
+      <small>{{data.description}}</small>
+    </div>
+  </div> 
+</div>
+</div>

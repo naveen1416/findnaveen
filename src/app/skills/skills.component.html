@@ -1,0 +1,19 @@
+<div class="card-2 col-md-12">
+    <h4 class="text-gold p-2">{{title}}</h4>
+</div>
+<div class="container mt-5">
+    <div class="row card-1 text-center  mb-3" *ngFor="let data of skillsData">
+    
+      <div class="col-md-12 text-left mt-2">
+          <h4 class="text-secondary"><b>{{data.skillTitle}}</b></h4>
+      </div>
+      <div class="col-md-2 col-6" *ngFor='let subData of data.stack'>
+        <div class="mb-3 border p-2 rounded-lg">
+          <img src='{{subData.img}}' height="50px;" width="50px;"/> <br/>
+          <small>{{subData.subtitle}}</small>
+        </div>
+      </div>
+     
+    </div>
+</div>
+

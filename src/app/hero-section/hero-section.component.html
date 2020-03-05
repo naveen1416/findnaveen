@@ -1,0 +1,63 @@
+<div class="container">
+
+  
+<!-- <div class="col-md-8">
+  <div class="">
+      <h1 class="">Hello..! I am <b class="">{{name}}</b></h1>
+      <h4 class="text-gold ">{{role}} </h4>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+        has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+        took a galley of type and scrambled it to make a type specimen book. It has survived 
+         and more recently
+        
+      </p>
+      <button class="btn btn-outline-warning">Resume</button>  <button class="btn btn-dark ml-2">Portfolio</button>
+  </div>
+</div>
+<div class="col-md-4 mb-5 text-center">
+    <img src="{{image}}" class="rounded-circle shadow-lg " height="300px;"/>
+</div> -->
+
+
+<div class="">
+    <div class="row p-3 mb-5">
+    <!-- Mobile View -->
+    <div class="col-md-6 col-12 mt-5 mb-5 text-center d-block d-sm-none">
+        <img src="{{image}}" class="rounded-circle shadow-lg img-fluid" />
+        <app-social-links></app-social-links>
+    </div>
+    <!-- Mobile View -->
+      <div class="col-md-6 col-12 mt-5 ">
+      <div class="">
+          <h1 class="">Hello..! I am <br/><b class="">{{name}}</b></h1>
+           <h4 class="text-gold ">{{role}} </h4>
+           <p>
+             {{description}} <a routerLink="/about" class="text-gold">More</a>
+            </p>
+            <a href="assets/naveen_cv.pdf" target="_blank">
+              <button class="btn btn-outline-warning">Download CV</button>  
+            </a>
+          <a routerLink="/case-studies"><button class="btn btn-dark ml-2">Projects</button></a>
+      </div>
+    </div>
+    <div class="col-md-6 col-12 mt-5 mb-5 text-center d-none d-sm-block">
+        <img src="{{image}}" class="rounded-circle shadow-lg " height="300px;"/>
+        <app-social-links></app-social-links>
+    </div>
+   
+    </div>
+
+
+</div>
+</div>
+<div class="container">
+    <div class="col-md-12 mt-5 mb-5 text-center ">
+        <h4 >
+          <span class="quotes">"</span>
+          For you to sleep well at night, the aesthetic, the quality, has to be carried all the way through.
+          <span class="quotes">"</span>
+        </h4>
+        <strong class="text-secondary"> <i>- Steve Jobs </i></strong>
+    </div>
+</div>
