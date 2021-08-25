@@ -16,7 +16,7 @@ export class CaseStudiesComponent implements OnInit {
   projectsData = [
     {
       projectName:'Neptune (eQRF)',
-      company:'Accion Labs',
+      company:'Pinnacle Consultancy sdn bhd',
       role:'Front End Developer',
       techStack:'Angular 6, Css3, Bootstrap and .NET MVC',
       description:'eQRF is stands for e - Quotation Request From, It is one of the module in the NEPTUNE project to digitize the current manual process. I was involved in Front End Development using Angular where the backend is .NET MVC'

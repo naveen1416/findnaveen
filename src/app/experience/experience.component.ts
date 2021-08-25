@@ -16,7 +16,7 @@ export class ExperienceComponent implements OnInit {
 
   experienceData = [
     {
-      company:'Accion labs sdn bhd',
+      company:'Pinnacle Consultancy sdn bhd',
       country:'Kuala Lumpur, Malaysia',
       role:'Front End Developer',
       duration:'July 2019 - present',
@@ -49,6 +49,13 @@ export class ExperienceComponent implements OnInit {
       role:'UI Designer',
       duration:'October 2015 - September 2016',
       description:'Worked as Junior UI Designer, involved in rapid mockup creation using pencil and adobe Photoshop. Designing clickable html templates using bootstrap.'
+    },
+    {
+      company:'Freelance',
+      country:'Global',
+      role:'UI Designer',
+      duration:'July 2014 - September 2015 August',
+      description:'Worked as Freelance Web Designer, involved in website designing and graphic designing. Designing clickable html templates using bootstrap.'
     },
   ]
 }
