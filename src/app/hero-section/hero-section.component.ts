@@ -13,7 +13,7 @@ export class HeroSectionComponent implements OnInit {
   }
 
   name = 'Naveen Nandharam';
-  role = 'UI Lead Developer';
+  role = 'Front End Developer';
   image = 'assets/images/naveen_image.jpg';
-  description = 'Mission-driven Ui Web Developer with almost 7 years of impeccable experience in full web development life cycle including front end and back end development and project management. \n As a UI developer I enjoy creating new user interfaces rapidly. ';
+  description = 'Mission-driven Front End Developer with almost 8 years of impeccable experience in full web development life cycle including front end and back end development and project management. \n As a Front end developer I enjoy creating new user interfaces rapidly. ';
 }

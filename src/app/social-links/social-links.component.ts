@@ -14,7 +14,7 @@ export class SocialLinksComponent implements OnInit {
   socialMedia = [
     {
       "type":"LinkedIn",
-      "link":"https://www.linkedin.com/in/naveen-n-423917112/",
+      "link":"https://www.linkedin.com/in/naveen-nandharam-423917112/",
       "iconClass":"lni-linkedin"
     },
     {
@@ -24,12 +24,12 @@ export class SocialLinksComponent implements OnInit {
     },
     {
       "type":"Instagram",
-      "link":"https://www.instagram.com/_naveenn_/",
+      "link":"https://www.instagram.com/naveen_nandharam/",
       "iconClass":"lni-instagram"
     },
     {
       "type":"WhatsApp",
-      "link":"http://wa.me/919701081702",
+      "link":"http://wa.me/447552202500",
       "iconClass":"lni-whatsapp"
     }
   ]

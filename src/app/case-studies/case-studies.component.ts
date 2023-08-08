@@ -15,10 +15,17 @@ export class CaseStudiesComponent implements OnInit {
   title = 'What I have done :-)';
   projectsData = [
     {
+      projectName:'SeekLocal',
+      company:'Kea Castle Technologies Sdn Bhd',
+      role:'Technical Lead',
+      techStack:'Angular, Css3, Bootstrap and PHP',
+      description:'Seeklocal is a local search engine to connect local vendors with the customers and generating the verified leads to the users. In this project we have use Angualar for front end development, API is developed in the PHP. For the mobile app development we are using Flutter.'
+    },
+    {
       projectName:'Neptune (eQRF)',
       company:'Pinnacle Consultancy sdn bhd',
       role:'Front End Developer',
-      techStack:'Angular 6, Css3, Bootstrap and .NET MVC',
+      techStack:'Angular, Css3, Bootstrap and .NET MVC',
       description:'eQRF is stands for e - Quotation Request From, It is one of the module in the NEPTUNE project to digitize the current manual process. I was involved in Front End Development using Angular where the backend is .NET MVC'
     },
     {
