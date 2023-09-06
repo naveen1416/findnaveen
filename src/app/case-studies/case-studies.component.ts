@@ -16,55 +16,95 @@ export class CaseStudiesComponent implements OnInit {
   projectsData = [
     {
       projectName:'SeekLocal',
-      company:'Kea Castle Technologies Sdn Bhd',
+      company:'Kea Castle Technologies',
       role:'Technical Lead',
-      techStack:'Angular, Css3, Bootstrap and PHP',
-      description:'Seeklocal is a local search engine to connect local vendors with the customers and generating the verified leads to the users. In this project we have use Angualar for front end development, API is developed in the PHP. For the mobile app development we are using Flutter.'
+      techStack:'React, Parcel, React Hooks, Material UI, Node, REST API, JSON, PHP,MySQL, JIRA & Teams',
+      description:'Seeklocal is a local search engine to connect local vendors with the customers and generating the verified leads to the users. It solves small enterprises lead generation problem and it is cost effective solution.'
     },
     {
       projectName:'Neptune (eQRF)',
       company:'Pinnacle Consultancy sdn bhd',
       role:'Front End Developer',
-      techStack:'Angular, Css3, Bootstrap and .NET MVC',
+      techStack:'Angular, CSS, Typescript, JSON, SSRS Reports & POWER BI',
       description:'eQRF is stands for e - Quotation Request From, It is one of the module in the NEPTUNE project to digitize the current manual process. I was involved in Front End Development using Angular where the backend is .NET MVC'
     },
     {
       projectName:'Digital Condo',
       company:'Provalley Solutions',
-      role:'UI Design Team Lead',
-      techStack:'Angular, Css3, Bootstrap, .NET MVC and Jquery',
-      description:'Digital Condo is a property management software, It consists of various modules like Bill payments, Complaints, Visitor Management, Renovation and Accounting, I was involved in UI Design & Development. Tech stack is .NET MVC with Angular, Jquery and SQL Server. '
+      role:'UI Design & Development | Digital Marketing Team Lead',
+      techStack:'UX Design Process, Email Template Designing, Application Front End End Development, HTML, Bootstrap, Javascript, SEO, SMO & Email Marketing.',
+      description:'Digital Condo is a property management software, It consists of various modules like Bill payments, Complaints, Visitor Management, Renovation and Accounting, I was involved in UI Design & Development.'
     },
     {
       projectName:'REMS',
       company:'Provalley Solutions',
-      role:'UI Design Team Lead',
-      techStack:'React, Css3, Bootstrap, PHP(CI) and MySql',
-      description:'REMS - Is Real Estate Marketing Software is a property listing and management software. It has features like appointment booking, property listing, agents listing and more. REMS is developed using PHP (Code Igniter), MySql for backend and REACT for Front end development, I was involved full UI Development. '
+      role:'UI Design & Development | Digital Marketing Team Lead',
+      techStack:'UX Designing, Email Template Designing, React, Javascript, PHP(CodeIgniter), MySQL, SEO, SMO & Email Marketing.',
+      description:'REMS - (Real Estate Management System) is a property listing and management software. It has features like appointment booking, property listing, agents listing and more'
     },
     {
       projectName:'STOCKHAUS',
       company:'Feliz it solutions sdn bhd ',
       role:'HYBRID MOBILE APP DEVELOPER',
-      techStack:'IONIC and AngularJS',
-      description:'Stockhaus is stock trading app for Malaysia stock market, This app has features like Watch-list, Profile creation, Multilingual, Share Calculator, Stock Search, Currency Exchange rates and more. This app is developed in Ionic using third party API. '
+      techStack:'IONIC 1 (Angular JS), Javascript, JSON, UI Development & CSS.',
+      description:'Stockhaus is a trading app for Malaysian stock market, This app has features like Watchlist, Profile creation, Multilingual, Shares Calculator, Stock Search, Currency Exchange rates and more.'
     },
     {
       projectName:'VFLAG',
       company:'INFINIDEA sdn bhd',
-      role:'Front End Developer',
-      techStack:'React, Laravel and Mysql',
-      description:'VFLAG is an IOT application for store management, it has different modules like user management, customer management, stock management etc..Tech stack used for for front end is REACT and Backend is Laravel and MySql'
+      role:'Full Stack Developer',
+      techStack:'Vue, Javascript, PHP (Laravel), MySQL & Linux Server.',
+      description:'VFLAG is an IOT application for store management, it has different modules like user management, customer management, stock management etc.'
     },
     {
       projectName:'EPVS',
       company:'Saffron info systems  sdn bhd',
       role:'UI Designer',
-      techStack:'Code Igniter (PHP), MySql and Angular Js',
-      description:'PVS is an electronic property valuation software for Malaysian property agencies to valuate the properties based on the old data given by the government. It is cloud based application with great features like verbals, cases and user role management and more.  Technologies used Code Igniter (PHP), MySql and Angular Js'
+      techStack:'HTML, CSS, Jquery, Bootstrap, PHP (Code Igniter) & MySQL',
+      description:'EPVS is an electronic property valuation software for Malaysian propertyagencies to valuate the properties based on the old data given by the government. It is cloud based application with great features like verbals,cases and user role management and more.'
     },
    
    
+  ]
+
+
+  otherProjects = [
+    {
+      projectUrl:'https://www.meteoriqs.com/',
+      projectImgSrc:'../../assets/projects/1.jpg'
+    },
+    {
+      projectUrl:'http://keacastle.com/',
+      projectImgSrc:'../../assets/projects/2.png'
+    },
+    {
+      projectUrl:'http://keacastle.com/',
+      projectImgSrc:'../../assets/projects/3.jpg'
+    },
+    {
+      projectUrl:'https://keacastle.xyz/demo/zee5/',
+      projectImgSrc:'../../assets/projects/4.png'
+    },
+    {
+      projectUrl:'http://ssrmaxillofacial.com/',
+      projectImgSrc:'../../assets/projects/5.png'
+    },
+    {
+      projectUrl:'http://ananthakshya.com/',
+      projectImgSrc:'../../assets/projects/6.png'
+    },
+    {
+      projectUrl:'http://iihcm.com/',
+      projectImgSrc:'../../assets/projects/7.png'
+    }, 
+    {
+      projectUrl:'https://accountingforsure.com/',
+      projectImgSrc:'../../assets/projects/8.png'
+    },
+    {
+      projectUrl:'https://keacastle.xyz/demo/rituals/',
+      projectImgSrc:'../../assets/projects/9.png'
+    }
   ]
 
 }

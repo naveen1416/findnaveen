@@ -14,7 +14,7 @@ export class SocialLinksComponent implements OnInit {
   socialMedia = [
     {
       "type":"LinkedIn",
-      "link":"https://www.linkedin.com/in/naveen-nandharam-423917112/",
+      "link":"https://www.linkedin.com/in/naveen-nandharam/",
       "iconClass":"lni-linkedin"
     },
     {

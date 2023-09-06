@@ -14,9 +14,9 @@ export class AboutComponent implements OnInit {
 
   title = 'Who am I ?';
   name = 'Naveen Nandharam';
-  role = 'UI Lead Developer';
+  role = 'Full-Stack Javascript Developer';
   image = 'assets/images/work.png';
-  description = 'Mission-driven Front End Developer with almost 8 years of impeccable experience in full web development life cycle including front end and back end development and project management. \n As a Front end developer I enjoy creating new user interfaces rapidly. ';
+  description = 'Mission-driven Javascript Developer with almost 8 years of impeccable experience in developing front end code from scratch. I enjoy creating websites and apps from scratch. ';
   hobbies = 'Coming to my hobbies, I love cooking Indian Cuisine, Web Surfing, Template Designing, Travelling and Music.';
   personalLife = 'I am quite proud to say, I am not your stereotypical web developer who sits in a dark room all day and night. I do spend my free time with family and my kids :-)';
   

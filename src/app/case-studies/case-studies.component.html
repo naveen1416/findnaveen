@@ -12,5 +12,20 @@
       </div> 
     </div>
     </div>
+
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <h4 class="text-gold" >Other Projects</h4>
+        </div>
+        <div class="col-md-4 mb-4 " *ngFor="let dataset of otherProjects">
+          <div class="card-1 text-center">
+          <a href="{{dataset.projectUrl}}" target="_blank">
+          <img class="img-responsive" src="{{dataset.projectImgSrc}}" height="300px"/>
+          </a>
+        </div> 
+        </div>
+      </div>
+    </div>
     
 

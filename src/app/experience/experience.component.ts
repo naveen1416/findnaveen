@@ -16,10 +16,10 @@ export class ExperienceComponent implements OnInit {
 
   experienceData = [
     {
-      company:'Kea Castle Technologies sdn bhd',
+      company:'Kea Castle Technologies',
       country:'Kuala Lumpur, Malaysia',
       role:'Technical Lead - Remote',
-      duration:'June 2023 - Present',
+      duration:'June 2023 - August 2023',
       description:'At Kea Castle as a Technical lead involved in the product development life cycle, including requirement gathering, software development and team management.'
     },
     {
@@ -27,21 +27,21 @@ export class ExperienceComponent implements OnInit {
       country:'Kuala Lumpur, Malaysia',
       role:'Front End Developer - Remote',
       duration:'July 2019 - May 2023',
-      description:'At Pinnacle worked as Front end developer for one of the top client(Telecom) In Malaysia. Involved in various projects to transform the requirements into the well working solutions. '
+      description:'At Pinnacle Working as Front end developer for one of the top client (MAXIS) In Malaysia for Telecom domain. Involved in various projects to transform the requirement into the well working solutions.  '
     },
     {
       company:'Provalley solution sdn bhd / llp',
       country:'Hyderabad, India',
       role:'UI Design & Development | Digital Marketing Team Lead ',
       duration:'April 2018 - June 2019',
-      description:'In Provalley worked as UI Design team lead, Provalley is a product based startup company, I was worked with Digital Marketing as well.'
+      description:'At Provalley worked as UI Design team lead, Provalley is a product based startup company, I was involved in Digital Marketing  as well.'
     },
     {
       company:'Feliz it solutions sdn bhd',
       country:'Kuala Lumpur, Malaysia',
       role:'HYBRID MOBILE APP DEVELOPER',
       duration:'May 2017 - March 2018',
-      description:'I worked for Feliz client Ozura First Logix as Hybrid Mobile App Developer using Ionic platform (Angular JS). Involved full development life cycle. '
+      description:' worked for Feliz It Solutions as Hybrid Mobile App Developer using Ionic platform (Angular JS). Involved full development life cycle.'
     },
     {
       company:'INFINIDEA sdn bhd',
